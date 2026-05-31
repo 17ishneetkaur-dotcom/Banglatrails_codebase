@@ -1,0 +1,73 @@
+// Hidden cultural spots and local heritage sites per district
+export const hiddenSpots = {
+  kolkata: [
+    { id: "c1", name: "Kumartuli", type: "craft", icon: "🎨", desc: "The ancient potters' quarter where Durga Puja idols are born from river clay. Artisans have shaped gods here for 300 years." },
+    { id: "c2", name: "Marble Palace", type: "heritage", icon: "🏛️", desc: "A private Italianate mansion housing Flemish paintings, Ming vases, and Greco-Roman statues — hidden in North Kolkata's lanes." },
+    { id: "c3", name: "Prinsep Ghat", type: "nature", icon: "🌊", desc: "A neo-Gothic riverside pavilion at dusk, where rowing clubs glide past, and Kolkata reveals its most romantic face." },
+    { id: "c4", name: "Nakhoda Mosque", type: "spiritual", icon: "🕌", desc: "The grand Mughal-style mosque of Chitpur, modeled on Akbar's tomb at Sikandra, rising golden at Eid." },
+    { id: "c5", name: "Chitpur Road", type: "music", icon: "🎵", desc: "The oldest street in Kolkata — once the haunt of Nawabs, Babus, and courtesans. Shehnai music still drifts from its workshops." },
+  ],
+  darjeeling: [
+    { id: "d1", name: "Batasia Loop", type: "heritage", icon: "🚂", desc: "A spectacular spiral railway loop where the Toy Train coils around a war memorial garden with panoramic Kanchenjunga views." },
+    { id: "d2", name: "Ghoom Monastery", type: "spiritual", icon: "🛕", desc: "The highest railway station monastery in the world at 7,407 ft — home to a colossal Maitreya Buddha statue." },
+    { id: "d3", name: "Hamalong Festival", type: "festival", icon: "🎭", desc: "A rare Lepcha community harvest festival barely known outside the hills, where ancient forest spirits are invoked through song." },
+    { id: "d4", name: "Makma Tea Estate", type: "nature", icon: "🍃", desc: "A secret biodynamic tea garden offering hand-picking experiences at dawn, as mist rolls through the bushes." },
+    { id: "d5", name: "Rock Garden", type: "nature", icon: "🪨", desc: "Hidden cascades and stone-paved walkways built through a hillside ravine — beloved by locals, unknown to most visitors." },
+  ],
+  birbhum: [
+    { id: "b1", name: "Joydev Kenduli Mela", type: "festival", icon: "🎵", desc: "A January full-moon fair on the banks of the Ajoy river — thousands of Baul mystics gather to sing through the night." },
+    { id: "b2", name: "Amkhoi Fossil Park", type: "heritage", icon: "🦕", desc: "An open-air museum of 20-million-year-old fossilized wood, unique in all of South Asia, rising from the red earth." },
+    { id: "b3", name: "Tarapith Burning Ghat", type: "spiritual", icon: "🔥", desc: "The cremation grounds where Tantric sadhus meditate among funeral pyres — a raw, profound sacred experience." },
+    { id: "b4", name: "Suchipara Waterfall", type: "nature", icon: "💧", desc: "A slender silver cascade hidden in the dense sal forest, reachable only through a tribal village path." },
+    { id: "b5", name: "Patachitra Village, Naya", type: "craft", icon: "🎨", desc: "The ancestral village of Patachitra painters where entire families live inside their own scrolls — every wall a painting." },
+  ],
+  hooghly: [
+    { id: "h1", name: "Chandannagar Strand", type: "heritage", icon: "🇫🇷", desc: "A French colonial promenade along the Hooghly where pastel villas and a tiny museum still speak of Pondicherry's northern cousin." },
+    { id: "h2", name: "Bandel Basilica", type: "spiritual", icon: "⛪", desc: "A Portuguese church from 1599 that survived Mughal sieges — its anchor is said to have miraculous healing power." },
+    { id: "h3", name: "Tribeni Sangam", type: "spiritual", icon: "🌊", desc: "The secret confluence of Ganga, Saraswati, and Damodar — a pilgrimage site most Kolkatans have never visited." },
+    { id: "h4", name: "Dhaniakhali Weavers", type: "craft", icon: "🧵", desc: "A cluster of handloom villages where master weavers create the distinctive Dhaniakhali cotton saree in open courtyards." },
+    { id: "h5", name: "Imambara of Hooghly", type: "heritage", icon: "🏛️", desc: "A 19th-century Indo-Islamic monument housing silver thrones and a priceless collection of Persian manuscripts." },
+  ],
+  bankura: [
+    { id: "bk1", name: "Bishnupur Ras Mancha", type: "heritage", icon: "🏛️", desc: "A pyramidal brick temple from 1600 — the oldest intact Ras Mancha in Bengal, where 108 idols once assembled for Krishna's dance." },
+    { id: "bk2", name: "Charida Mask Village", type: "craft", icon: "🎭", desc: "The only village in India that exclusively makes Chhau dance masks — every family a dynasty of mask artists." },
+    { id: "bk3", name: "Susunia Hill Inscriptions", type: "heritage", icon: "🪨", desc: "A 4th-century rock inscription by King Chandravarman — one of Bengal's oldest historical texts, carved into the hillside." },
+    { id: "bk4", name: "Muktijudha Mela, Bishnupur", type: "festival", icon: "🎶", desc: "An annual classical music festival held within the terracotta temple complex — the acoustics are legendary." },
+    { id: "bk5", name: "Kangsabati Reservoir", type: "nature", icon: "🌅", desc: "A vast dam reservoir at sunset, ringed by jungle — local fishermen row ancient wooden boats through lotus beds." },
+  ],
+  murshidabad: [
+    { id: "m1", name: "Khushbagh", type: "heritage", icon: "🌸", desc: "The garden tomb of Nawab Siraj-ud-Daulah — a quiet, haunting mausoleum where the last independent Nawab rests beside his family." },
+    { id: "m2", name: "Jafaraganj Cemetery", type: "heritage", icon: "🪦", desc: "An overgrown Dutch and Armenian cemetery hiding 300 years of merchant empires in its weathered epitaphs." },
+    { id: "m3", name: "Nimtita Palace", type: "heritage", icon: "🏰", desc: "A crumbling riverside raja's palace — now a heritage homestay where you sleep in canopied beds under frescoed ceilings." },
+    { id: "m4", name: "Bera Festival (Boat Race)", type: "festival", icon: "⛵", desc: "An annual floating lamp festival on the Bhagirathi — thousands of earthen lamps drift downstream at dusk in October." },
+    { id: "m5", name: "Murshidabad Silk Weavers", type: "craft", icon: "🧵", desc: "A centuries-old tradition of Katan silk weaving — families in Jiaganj still use pit looms passed down from Nawabi court weavers." },
+  ],
+  purulia: [
+    { id: "p1", name: "Charida — Mask Makers' Village", type: "craft", icon: "🎭", desc: "The mythic village where every household crafts Chhau masks from clay, paper pulp, and lacquer paint." },
+    { id: "p2", name: "Ajodhya Hills Sunrise", type: "nature", icon: "🌄", desc: "At dawn, the Ajodhya plateau turns a burning amber — a sacred spot for the Santhal community's harvest prayers." },
+    { id: "p3", name: "Turga Waterfalls", type: "nature", icon: "💧", desc: "Monsoon waterfalls that plunge off laterite cliffs into hidden pools — reachable only on foot through tribal forest paths." },
+    { id: "p4", name: "Pakbirra Temple Complex", type: "heritage", icon: "🛕", desc: "A cluster of 10th-century stone temples in the jungle — terracotta panels depicting stories no longer found in books." },
+    { id: "p5", name: "Chhau Mahotsav", type: "festival", icon: "🎪", desc: "The grand masked dance festival of Chaitra month — warriors, demons, and gods battle through the night to ancient percussion." },
+  ],
+  malda: [
+    { id: "ml1", name: "Adina Mosque Ruins", type: "heritage", icon: "🕌", desc: "Once the largest mosque in the Indian subcontinent — its 88 domes now host nesting birds in a ghost-city of the Bengal Sultanate." },
+    { id: "ml2", name: "Firoz Minar", type: "heritage", icon: "🗼", desc: "A mysterious victory tower from the 15th century whose spiral staircase leads to panoramic views of medieval Gour." },
+    { id: "ml3", name: "Mango Orchards of Manikchak", type: "nature", icon: "🥭", desc: "Hundreds of acres of Fazli mango trees — during April, the blossoms fill the air for miles with a scent unlike anywhere on earth." },
+    { id: "ml4", name: "Gambhira Folk Dance", type: "festival", icon: "🎭", desc: "A Chaitra festival where masked performers satirize local rulers and social ills — Bengal's oldest living democratic tradition." },
+    { id: "ml5", name: "Eklakhi Mausoleum", type: "heritage", icon: "🏛️", desc: "A single-domed tomb of a Sultanate queen, built in a million-and-one bricks — its mathematical construction still puzzles historians." },
+  ],
+  howrah: [
+    { id: "hw1", name: "Great Banyan Tree", type: "nature", icon: "🌳", desc: "A single tree spreading over 3.5 acres — its aerial roots have created a self-contained forest. No other tree like it exists." },
+    { id: "hw2", name: "Belur Math at Dawn", type: "spiritual", icon: "🛕", desc: "Swami Vivekananda's syncretic masterpiece at sunrise, when monks chant on the riverside and mist rises off the Hooghly." },
+    { id: "hw3", name: "Shibpur Heritage Zone", type: "heritage", icon: "🏛️", desc: "A cluster of colonial-era bungalows and the Indian Botanic Garden — once the center of British botanical science in Asia." },
+    { id: "hw4", name: "Andul Royal Palace", type: "heritage", icon: "🏰", desc: "A little-known Bengal zamindari palace with ornate durbar rooms, still occupied by descendants of its original dynasty." },
+    { id: "hw5", name: "Howrah Flower Market", type: "culture", icon: "🌸", desc: "Beneath the Howrah Bridge — before dawn, the largest flower market in Asia erupts in color and fragrance for just 3 hours." },
+  ],
+  "paschim-bardhaman": [
+    { id: "pb1", name: "Churulia — Nazrul's Village", type: "heritage", icon: "✍️", desc: "The humble mud-walled birthplace of Kazi Nazrul Islam — now a museum where his revolutionary manuscripts are preserved." },
+    { id: "pb2", name: "Ichhai Ghosher Deul", type: "heritage", icon: "🏛️", desc: "A 1,000-year-old laterite temple to Shiva in the deep jungle — visited almost exclusively by local tribal communities." },
+    { id: "pb3", name: "Mihidana Sweet Shops of Burdwan", type: "culture", icon: "🍬", desc: "The legendary sweetmeat bazaar where Mihidana and Sitabhog — Bengal's finest sweets — are made in century-old recipes." },
+    { id: "pb4", name: "Damodar Valley Forests", type: "nature", icon: "🌿", desc: "Riverine forests along the Damodar where migratory birds gather in winter — almost completely off the tourist trail." },
+    { id: "pb5", name: "Garh Jungle Fort Ruins", type: "heritage", icon: "🏰", desc: "An overgrown medieval fortification swallowed by forest — its earthen ramparts still trace a lost kingdom's boundaries." },
+  ],
+};
