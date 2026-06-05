@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { base44 } from "@/api/base44Client";
 import { Send, Sparkles, MapPin, Loader2 } from "lucide-react";
 import { districts } from "../data/districts";
 import { useNavigate } from "react-router-dom";
@@ -29,8 +28,28 @@ export default function CulturalGuide() {
       `${d.name}: ${d.subtitle}. Food: ${d.food.join(", ")}. Festivals: ${d.festivals.join(", ")}. Landmarks: ${d.historicalPlaces.join(", ")}. Nature: ${d.nature.join(", ")}. Crafts: ${d.crafts.join(", ")}.`
     ).join("\n");
 
-    const result = await base44.integrations.Core.InvokeLLM({
-      prompt: `You are BanglaTrails Cultural Guide — an expert on West Bengal's heritage, culture, food, festivals, and travel.
+   const response = await fetch("/api/cultural-guide", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+    prompt: `
+You are BanglaTrails Cultural Guide.
+
+${districtSummaries}
+
+User Question:
+${query}
+
+Provide a warm, culturally rich answer.
+`,
+  }),
+});
+
+const data = await response.json();
+
+setResponse(data.text);.
       
 Here is the data about 10 districts of West Bengal:
 ${districtSummaries}
