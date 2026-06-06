@@ -28,6 +28,18 @@ Using intelligent recommendations and curated cultural trails, the platform conn
 
 ---
 
+## How my idea is solving the given problem
+
+Bangla Trails bridges the discoverability gap by transforming conventional travel into a curated journey of cultural immersion. We solve the tourism crisis through three core features:
+
+* Overcoming Mainstream Bias ➔ Interactive Mapping: Instead of pushing tourists to the same repetitive landmarks, our interactive map visually guides travelers to hidden regional hubs and artisan clusters across West Bengal.
+
+* Unlocking Hidden Crafts ➔ Curated Heritage Trails: We bring visibility to dying art forms—like Dokra, Sholapith, and Conch bangles—giving local artisans a direct connection to the modern travel economy.
+
+* Personalizing the Experience ➔ Intelligent Cultural Guide: Traveling shouldn't be generic. Our smart, deterministic matchmaking system asks users about their unique interests and recommends a personalized "best fit" cultural trail, making heritage discovery accessible to everyone.
+
+---
+
 ## 🚀 Key Features
 
 🔍 Personalized Cultural Discovery
