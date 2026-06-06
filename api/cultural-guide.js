@@ -1,6 +1,18 @@
 export default async function handler(req, res) {
   try {
-    const { prompt } = req.body;
+    const body =
+      typeof req.body === "string"
+        ? JSON.parse(req.body)
+        : req.body;
+
+    const prompt = body?.prompt;
+
+    if (!prompt) {
+      return res.status(400).json({
+        text: "No prompt received",
+        receivedBody: body,
+      });
+    }
 
     const response = await fetch(
       "https://openrouter.ai/api/v1/chat/completions",
@@ -24,7 +36,7 @@ export default async function handler(req, res) {
 
     const data = await response.json();
 
-    console.log("OPENROUTER RESPONSE:", JSON.stringify(data, null, 2));
+    console.log("OPENROUTER RESPONSE:", data);
 
     if (!response.ok) {
       return res.status(response.status).json({
@@ -34,10 +46,10 @@ export default async function handler(req, res) {
     }
 
     return res.status(200).json({
-      text: data?.choices?.[0]?.message?.content || "No response generated.",
-      debug: data,
+      text:
+        data?.choices?.[0]?.message?.content ||
+        "No response generated.",
     });
-
   } catch (error) {
     console.error("SERVER ERROR:", error);
 
