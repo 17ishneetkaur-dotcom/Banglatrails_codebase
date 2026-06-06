@@ -19,6 +19,9 @@ export const districts = [
     funFact: "Kolkata's Durga Puja is a UNESCO Intangible Cultural Heritage — the world's largest open-air art festival with over 3,000 pandals annually.",
     description: "Kolkata, the erstwhile capital of British India, breathes through its tram lines, crumbling palatial homes, and the aroma of freshly fried phuchka. The city is an unending conversation between Tagore's poetry and the bustle of New Market, between the solemn hymns of Kalighat and the roar of Mohun Bagan football. Every para (neighborhood) has its own Durga Puja pandal, its own adda over cups of cutting chai.",
     mapPosition: { x: 72, y: 72 },
+    images:{
+      hero: "/assets/districts/kolkata.jpg"
+    }
   },
   {
     id: "darjeeling",
