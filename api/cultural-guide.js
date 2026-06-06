@@ -24,16 +24,26 @@ export default async function handler(req, res) {
 
     const data = await response.json();
 
-    res.status(200).json({
-      text:
-        data?.choices?.[0]?.message?.content ||
-        "No response generated.",
-    });
-  } catch (error) {
-    console.error(error);
+    console.log("OPENROUTER RESPONSE:", JSON.stringify(data, null, 2));
 
-    res.status(500).json({
+    if (!response.ok) {
+      return res.status(response.status).json({
+        text: "OpenRouter Error",
+        error: data,
+      });
+    }
+
+    return res.status(200).json({
+      text: data?.choices?.[0]?.message?.content || "No response generated.",
+      debug: data,
+    });
+
+  } catch (error) {
+    console.error("SERVER ERROR:", error);
+
+    return res.status(500).json({
       text: "AI service unavailable.",
+      error: error.message,
     });
   }
 }
