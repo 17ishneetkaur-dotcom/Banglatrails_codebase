@@ -2,7 +2,7 @@
 
 ### Beyond Destinations. Discover Stories.
 
-BanglaTrails is a cultural exploration platform that helps travelers experience the real Bangladesh—not just through places, but through the people, traditions, flavors, history, and stories that bring them to life.
+BanglaTrails is a cultural exploration platform that helps travelers experience the real West bengal —not just through places, but through the people, traditions, flavors, history, and stories that bring them to life.
 
 ---
 
