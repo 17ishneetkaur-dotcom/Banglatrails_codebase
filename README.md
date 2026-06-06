@@ -60,7 +60,14 @@ BanglaTrails aims to create a tourism ecosystem where:
 
 ## 💡 Vision
 
-To become the digital gateway to Bangladesh's cultural heartbeat—connecting every traveler with experiences worth remembering and stories worth sharing.
+To become the digital gateway to Bangladesh's cultural heartbeat—connecting every traveller with experiences worth remembering and stories worth sharing.
+
+---
+
+## Other parts of the submission
+
+Miro pitch deck:
+Vercel app deployment:
 
 ---
 
