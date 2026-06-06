@@ -67,6 +67,7 @@ To become the digital gateway to Bangladesh's cultural heartbeat—connecting ev
 ## Other parts of the submission
 
 Miro pitch deck: https://miro.com/app/board/uXjVHJcU9zo=/?share_link_id=540725717409
+
 Vercel app deployment:
 
 ---
