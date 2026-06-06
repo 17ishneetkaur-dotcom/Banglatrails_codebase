@@ -20,34 +20,34 @@ const SITE_IMAGES = {
   "Bakreshwar": "https://www.pilgrimaide.com/image/cache/catalog/Blogs/Bakreshwar%20Devi%20Temple-2120x800w.jpg",
   "Amkhoi Fossil Park": "https://static2.tripoto.com/media/filter/nl/img/45595/TripDocument/1519756209_dsc08664.jpg",
   // Hooghly
-  "Bandel Church": "https://images.unsplash.com/photo-1548191194-b3d4f051fd7d?w=600&q=80",
-  "Hooghly Imambara": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&q=80",
-  "Chandannagar": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80",
-  "Serampore": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=600&q=80",
+  "Bandel Church": "https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2018/01/31163431/267.jpg?fm=webp&w=750&h=500&dpr=2",
+  "Hooghly Imambara": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGR8Q5i0EGekMn8wHuAebSuFvgRi5vEYS1qLlxEeShO81JInVuiCuSukpJEZyVu4zGCXBMozuSvNcTN0bW1px9cmE1vJq1rX2AhHeNeiCekJd3pvfSsCBaBj-nITLBwYfv8qJdj8_xV67ln=w270-h312-n-k-no",
+  "Chandannagar": "https://kinjalbose.com/wp-content/uploads/2020/04/5ee5b-img_5645.jpg?w=1440&h=890&crop=1",
+  "Serampore": "https://upload.wikimedia.org/wikipedia/commons/2/22/Serampore_College_-_Hooghly_2017-07-06_0578.JPG?utm_source=en.wikivoyage.org&utm_campaign=index&utm_content=original",
   // Bankura
-  "Bishnupur Temples": "https://images.unsplash.com/photo-1548013146-72c4f3e24e5f?w=600&q=80",
-  "Susunia Hills": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80",
+  "Bishnupur Temples": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Jod_Bangla_Terracotta_Temple%2C_Bishnupur%2C_West_Bengal.jpg",
+  "Susunia Hills": "https://bankuratourism.com/wp-content/uploads/2023/07/Susunia-Hill6-1024x603.jpg.webp",
   // Murshidabad
-  "Hazarduari Palace": "https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=600&q=80",
-  "Katra Masjid": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&q=80",
-  "Imambara": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=600&q=80",
-  "Khushbagh": "https://images.unsplash.com/photo-1600585152915-d92de998cccb?w=600&q=80",
+  "Hazarduari Palace": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Hazarduari01_debaditya_chatterjee.jpg",
+  "Katra Masjid": "https://d34vm3j4h7f97z.cloudfront.net/original/4X/0/d/c/0dc4819f4d56dc5b29442aa15937da034fb4d119.jpeg",
+  "Imambara": "https://kevinstandagephotography.wordpress.com/wp-content/uploads/2024/01/cover3.jpg",
+  "Khushbagh": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Khushbagh_-_Murshidabad_-_West_Bengal.jpg",
   // Purulia
-  "Garpanchkot": "https://images.unsplash.com/photo-1533130061792-64b345e4a833?w=600&q=80",
-  "Deulghata": "https://images.unsplash.com/photo-1548013146-72c4f3e24e5f?w=600&q=80",
-  "Pakbirra": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=600&q=80",
+  "Garpanchkot": "https://www.nomadicweekends.com/wp-content/uploads/2018/02/Dreamy-Garpanchkot-Tent-House.jpg",
+  "Deulghata": "https://upload.wikimedia.org/wikipedia/commons/1/18/Deuls_of_Deulghata_in_Purulia._04.jpg",
+  "Pakbirra": "https://upload.wikimedia.org/wikipedia/commons/5/56/Pakbirra_Jain_Shrine_of_Purulia_03_%28cropped%29.jpg",
   // Malda
-  "Gour": "https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?w=600&q=80",
-  "Pandua": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80",
-  "Adina Mosque": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&q=80",
-  "Eklakhi Mausoleum": "https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=600&q=80",
+  "Gour": "https://upload.wikimedia.org/wikipedia/commons/5/57/Dakhil_Darwaza_2%2C_Malda.jpg?utm_source=en.wikivoyage.org&utm_campaign=index&utm_content=original",
+  "Pandua": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Adina_Mosque_at_Malda_district_of_West_Bengal_04.jpg",
+  "Adina Mosque": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Adina_Mosque_at_Malda_district_of_West_Bengal_04.jpg",
+  "Eklakhi Mausoleum": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Eklakhi_Mausoleum.jpg",
   // Howrah
-  "Belur Math": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?w=600&q=80",
-  "Botanical Garden": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80",
+  "Belur Math": "https://advaitaashrama.org/wp-content/uploads/belur-math-universal-temple.jpg",
+  "Botanical Garden": "https://static.toiimg.com/thumb/msid-29663450,width-550,height-433/29663450.jpg",
   // Paschim Bardhaman
-  "Churulia": "https://images.unsplash.com/photo-1591702386139-a2e0b4d83c84?w=600&q=80",
-  "Ichhai Ghosher Deul": "https://images.unsplash.com/photo-1548013146-72c4f3e24e5f?w=600&q=80",
-  "Garh Jungle": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&q=80",
+  "Churulia": "https://res.cloudinary.com/dxxs0mkei/image/upload/f_auto,q_auto,w_800,h_800,c_fill,g_auto/v1776946997/my-state-guide/states/west-bengal/districts/paschim-bardhaman-dist.webp",
+  "Ichhai Ghosher Deul": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Temple_of_Ichai_Ghosh.jpg",
+  "Garh Jungle": "https://holaciti.com/assets/place/1764505046place.webp",
 };
 
 const DEFAULT_IMGS = [
