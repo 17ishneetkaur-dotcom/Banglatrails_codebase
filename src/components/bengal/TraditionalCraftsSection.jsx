@@ -3,15 +3,46 @@ import { motion } from "framer-motion";
 import { ShoppingBag, Sparkles } from "lucide-react";
 
 const CRAFT_IMAGES = {
-  "Bankura Horse": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&q=80",
-  "Kantha embroidery": "https://images.unsplash.com/photo-1545885361-d87beead8e0d?w=400&q=80",
-  "Patachitra": "https://images.unsplash.com/photo-1578926314433-b3027ba26eed?w=400&q=80",
-  "Thangka paintings": "https://images.unsplash.com/photo-1578926314433-b3027ba26eed?w=400&q=80",
-  "Terracotta": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&q=80",
-  "Baluchari saree": "https://images.unsplash.com/photo-1545885361-d87beead8e0d?w=400&q=80",
-  "Dokra": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&q=80",
-  "Sholapith": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&q=80",
-  "Chhau masks": "https://images.unsplash.com/photo-1578926314433-b3027ba26eed?w=400&q=80",
+  // Clay / Terracotta
+  "Terracotta": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&q=80",
+  "Bankura Horse": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&q=80",
+  "Kumartuli idols": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?w=400&q=80",
+
+  // Embroidery / Textile / Weaving
+  "Kantha embroidery": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&q=80",
+  "Baluchari saree": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400&q=80",
+  "Dhaniakhali sarees": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400&q=80",
+  "Begampur weaving": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&q=80",
+  "Wool textiles": "https://images.unsplash.com/photo-1576185850227-1f72b7f8d189?w=400&q=80",
+  "Carpets": "https://images.unsplash.com/photo-1584893832960-f3c1be73b6f4?w=400&q=80",
+
+  // Paintings / Scrolls
+  "Patachitra": "https://images.unsplash.com/photo-1575223970966-76ae61ee7838?w=400&q=80",
+  "Thangka paintings": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?w=400&q=80",
+  "Gambhira masks": "https://images.unsplash.com/photo-1547481887-a26e2cacb5b2?w=400&q=80",
+  "Chhau masks": "https://images.unsplash.com/photo-1547481887-a26e2cacb5b2?w=400&q=80",
+
+  // Metal / Brass
+  "Dokra": "https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=400&q=80",
+  "Dokra metal craft": "https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=400&q=80",
+  "Brassware": "https://images.unsplash.com/photo-1583842761844-5f0f5b5e30bc?w=400&q=80",
+  "Conch bangles": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&q=80",
+
+  // Wood
+  "Wood carvings": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&q=80",
+  "Wood carving": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&q=80",
+  "Wooden dolls": "https://images.unsplash.com/photo-1567942712661-82b9b407abbf?w=400&q=80",
+  "Sandalwood work": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&q=80",
+
+  // Plant-based / Fibre
+  "Sholapith": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&q=80",
+  "Sholapith carving": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&q=80",
+  "Bamboo crafts": "https://images.unsplash.com/photo-1545579645-aab15c3fef67?w=400&q=80",
+  "Cane work": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&q=80",
+  "Jute crafts": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&q=80",
+
+  // Tribal / Mixed
+  "Tribal crafts": "https://images.unsplash.com/photo-1590502593747-42a996133562?w=400&q=80",
 };
 
 const DEFAULT_CRAFT_IMGS = [
@@ -28,8 +59,27 @@ const CRAFT_DESCRIPTIONS = {
   "Thangka paintings": "Buddhist scroll paintings on cotton, depicting deities with intricate gold detailing.",
   "Baluchari saree": "Silk sarees with Mughal-era court scenes woven directly into the pallu.",
   "Dokra": "Lost-wax cast metal figurines using a 4,000-year-old tribal technique.",
+  "Dokra metal craft": "Ancient lost-wax casting producing haunting metal forms used in tribal rituals.",
   "Terracotta": "Sun-baked clay art featuring intricate motifs on temple panels and household objects.",
   "Sholapith": "Lightweight pith-plant carvings of exquisite delicacy, used in ceremonial decor.",
+  "Sholapith carving": "Intricate carvings from the spongy shola plant, adorning bridal headwear and deity displays.",
+  "Kumartuli idols": "Handcrafted clay goddess idols made by master artisans in Kolkata's potter quarter.",
+  "Carpets": "Hand-knotted Tibetan-style rugs with bold geometric and floral patterns.",
+  "Wool textiles": "Handwoven hill fabrics using local wool in earthy tones for warmth and beauty.",
+  "Wood carvings": "Intricate carved decorations on prayer items, furniture, and household objects.",
+  "Bamboo crafts": "Durable everyday items — baskets, mats, furniture — woven from locally harvested bamboo.",
+  "Dhaniakhali sarees": "Fine cotton sarees with delicate borders, woven in the villages of Hooghly.",
+  "Begampur weaving": "Lightweight cotton weaves with distinctive checks and stripes from the Hooghly belt.",
+  "Brassware": "Ornamental and functional brass vessels crafted with repoussé and engraving techniques.",
+  "Sandalwood work": "Delicately carved sandalwood figurines and prayer items with a lingering fragrance.",
+  "Chhau masks": "Dramatically painted papier-mâché masks for the Chhau dance, each face a mythic character.",
+  "Tribal crafts": "Indigenous handmade art using natural materials — beads, grass, clay, and bark.",
+  "Cane work": "Flexible cane woven into baskets, trays, and decorative panels by tribal artisans.",
+  "Wood carving": "Temple-inspired carved wooden panels and figurines, a tradition from Bengal's medieval past.",
+  "Gambhira masks": "Large papier-mâché masks used in the Gambhira folk theatre of Malda.",
+  "Conch bangles": "White conch-shell bangles (shankha) — a sacred symbol worn by Bengali brides.",
+  "Jute crafts": "Eco-friendly bags, wall hangings, and art made from Bengal's golden fibre.",
+  "Wooden dolls": "Brightly painted wooden toys and deity dolls, a cottage industry of the Bardhaman belt.",
 };
 
 export default function TraditionalCraftsSection({ crafts, accentColor }) {
