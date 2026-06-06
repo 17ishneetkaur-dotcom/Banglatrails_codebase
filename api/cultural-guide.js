@@ -30,9 +30,28 @@ export default async function handler(req, res) {
 
     const data = await response.json();
 
-    return res.status(200).json(data);
+    console.log(
+      "OPENROUTER RESPONSE:",
+      JSON.stringify(data, null, 2)
+    );
+
+    if (!response.ok) {
+      return res.status(response.status).json({
+        text: "OpenRouter Error",
+        error: data,
+      });
+    }
+
+    return res.status(200).json({
+      text:
+        data?.choices?.[0]?.message?.content ||
+        "No response generated.",
+    });
   } catch (err) {
+    console.error("SERVER ERROR:", err);
+
     return res.status(500).json({
+      text: "AI service unavailable.",
       error: err.message,
     });
   }
