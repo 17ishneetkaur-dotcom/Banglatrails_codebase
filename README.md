@@ -82,6 +82,8 @@ Miro pitch deck: https://miro.com/app/board/uXjVHJcU9zo=/?share_link_id=54072571
 
 Vercel app deployment: https://banglatrails-codebase.vercel.app/
 
+Youtube demo video link: https://youtu.be/lPSACbVd-VM
+
 ---
 
 ## 🏆 Built For
