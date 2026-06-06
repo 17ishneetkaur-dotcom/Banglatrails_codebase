@@ -4,45 +4,45 @@ import { ShoppingBag, Sparkles } from "lucide-react";
 
 const CRAFT_IMAGES = {
   // Clay / Terracotta
-  "Terracotta": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&q=80",
-  "Bankura Horse": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&q=80",
-  "Kumartuli idols": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?w=400&q=80",
+  "Terracotta": "https://theheritageartifacts.com/cdn/shop/files/DSC_2668_3240x4320.jpg?v=1696179943",
+  "Bankura Horse": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Bishnupur_Terracotta_Horse_2.JPG",
+  "Kumartuli idols": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Idol_of_Maa_Durga_at_Kumortuli.jpg",
 
   // Embroidery / Textile / Weaving
-  "Kantha embroidery": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&q=80",
-  "Baluchari saree": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400&q=80",
-  "Dhaniakhali sarees": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400&q=80",
-  "Begampur weaving": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&q=80",
-  "Wool textiles": "https://images.unsplash.com/photo-1576185850227-1f72b7f8d189?w=400&q=80",
-  "Carpets": "https://images.unsplash.com/photo-1584893832960-f3c1be73b6f4?w=400&q=80",
+  "Kantha embroidery": "https://cdn.sanity.io/images/vk5tclvq/production/7f918afc808c71432211f6edbfbe11d4e0a37c78-2620x824.png?auto=format&q=40",
+  "Baluchari saree": "https://onlinenaksha.com/wp-content/uploads/2021/03/IMG_20230702_131113.jpg",
+  "Dhaniakhali sarees": "https://cpimg.tistatic.com/04718983/b/4/Dhaniakhali-Tant-Sarees.jpg",
+  "Begampur weaving": "https://cdn.shopify.com/s/files/1/0387/7463/6683/files/aevum-the-revival-of-begampuri-sarees_2_600x600.jpg?v=1628539002",
+  "Wool textiles": "https://textilesdirectorate.wb.gov.in/assets/THEME/default/images/about.jpg",
+  "Carpets": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD8wF90yGGqbxr_XWW82ndurMdbWPmkyEZRMkmrXybq717UqSbzd--wk0&s",
 
   // Paintings / Scrolls
-  "Patachitra": "https://images.unsplash.com/photo-1575223970966-76ae61ee7838?w=400&q=80",
-  "Thangka paintings": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?w=400&q=80",
-  "Gambhira masks": "https://images.unsplash.com/photo-1547481887-a26e2cacb5b2?w=400&q=80",
-  "Chhau masks": "https://images.unsplash.com/photo-1547481887-a26e2cacb5b2?w=400&q=80",
+  "Patachitra": "https://collection.qagoma.qld.gov.au/index.php/system/files/styles/wide/private/object-images/PATACHITRA_CHITRAKAR.jpg?itok=joV6rmNe",
+  "Thangka paintings": "https://india.norbulingka.org/cdn/shop/files/THPNBB018-1.webp?v=1724755158&width=1000",
+  "Gambhira masks": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0pvo47a3qRSMgx28-ttFi0JhnTmOFOHjh8Rajpl6tg39vk9Wo52Lc7B4&s",
+  "Chhau masks": "https://www.zineart.in/images/c3.webp",
 
   // Metal / Brass
-  "Dokra": "https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=400&q=80",
-  "Dokra metal craft": "https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=400&q=80",
-  "Brassware": "https://images.unsplash.com/photo-1583842761844-5f0f5b5e30bc?w=400&q=80",
-  "Conch bangles": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&q=80",
+  "Dokra": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5q7a0u8Beib5m3ViFshiiFnnFflU-q7FJMDFdrdI1NsmRklCly5TyDwjTnlWM",
+  "Dokra metal craft": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5q7a0u8Beib5m3ViFshiiFnnFflU-q7FJMDFdrdI1NsmRklCly5TyDwjTnlWM",
+  "Brassware": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3HfeYy-tJ1otdfVbXq1r7wxvXEuy0nZkcrRS4-qIwwM9NXyBm6un6xlC2YOvo",
+  "Conch bangles": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSN4iHuVT2JvB5x5u4eOx9cMS6YgbdFwGO279dfItUeyLfyJW1h1qNdeXTsaoIu",
 
   // Wood
-  "Wood carvings": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&q=80",
-  "Wood carving": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&q=80",
-  "Wooden dolls": "https://images.unsplash.com/photo-1567942712661-82b9b407abbf?w=400&q=80",
-  "Sandalwood work": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&q=80",
+  "Wood carvings": "https://mashindia.com/wp-content/uploads/images/woodcraft-main-1-ss.jpg",
+  "Wood carving": "https://mashindia.com/wp-content/uploads/images/woodcraft-main-1-ss.jpg",
+  "Wooden dolls": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHNPPvvw_8K4HbYAq9qrotCIR1vqNJkuSJ7wPamDy_6hEUaVwjdTM1jXOhznvE",
+  "Sandalwood work": "https://www.ragaarts.com/cdn/shop/articles/sandal-elephant-blog.jpg?crop=center&height=900&v=1724132793&width=2400",
 
   // Plant-based / Fibre
-  "Sholapith": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&q=80",
-  "Sholapith carving": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&q=80",
-  "Bamboo crafts": "https://images.unsplash.com/photo-1545579645-aab15c3fef67?w=400&q=80",
-  "Cane work": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&q=80",
-  "Jute crafts": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&q=80",
+  "Sholapith": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTTWvRSUbmECYQzcSuTnz2gsyeg60d-y0daV8wo9miyefBFrE2mU8ku9yCZgLeO",
+  "Sholapith carving": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGIZa-HhNBYSiszCElTGLx9Ef7RQuL8k74LXdDjux5HQ&s",
+  "Bamboo crafts": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR-WiPWdRvRps4fjWaZ1sBSKFFaiGUpD04Hoz7Gqe8uBNOm6SdNL_xXMdacfS-w",
+  "Cane work": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo7aQP51NwwYsJY6dXILBsknQjTJpXXsV2rMVyao9pmA&s",
+  "Jute crafts": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPNMQlsBFZCR0K9VScOzpm-3tlTk0Iqgc1CwOYxllJMiM5LLhkJTXcm2Uvmxwx",
 
   // Tribal / Mixed
-  "Tribal crafts": "https://images.unsplash.com/photo-1590502593747-42a996133562?w=400&q=80",
+  "Tribal crafts": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSWEKC4526pHQaJ0nPVOq7ah1dfUGUri1edP2Vrsr8bz_pYLxtNPakutHGibf9o",
 };
 
 const DEFAULT_CRAFT_IMGS = [
