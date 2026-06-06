@@ -5,20 +5,20 @@ import { base44 } from "@/api/base44Client";
 
 const SITE_IMAGES = {
   // Kolkata
-  "Victoria Memorial": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-  "Howrah Bridge": "https://images.unsplash.com/photo-1518684029980-cf91eb586ae0?w=600&q=80",
-  "Indian Museum": "https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?w=600&q=80",
-  "Marble Palace": "https://images.unsplash.com/photo-1600585152915-d92de998cccb?w=600&q=80",
-  "St. Paul's Cathedral": "https://images.unsplash.com/photo-1548191194-b3d4f051fd7d?w=600&q=80",
+  "Victoria Memorial": "https://plus.unsplash.com/premium_photo-1697730414399-3d4d9ada98bd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "Howrah Bridge": "https://plus.unsplash.com/premium_photo-1697729933655-7429371661de?q=80&w=1243&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "Indian Museum": "https://indianmuseumkolkata.org/im_cont/uploads/2021/11/b1_1_1-1200x544.png",
+  "Marble Palace": "https://www.cbnme.com/wp-content/uploads/2023/06/THE-MARBLE-PALACE-1.jpg",
+  "St. Paul's Cathedral": "https://choosewhere.com/public/images/g1RlaKv/crop_and_zoom_1696x1120_0x7_2000x1320/shutterstock_2495913789.webp",
   // Darjeeling
-  "Toy Train (UNESCO)": "https://images.unsplash.com/photo-1544989164-31c6e9e4a6c8?w=600&q=80",
-  "Himalayan Mountaineering Institute": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-  "Chowrasta": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
+  "Toy Train (UNESCO)": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201907/toy_train.jpeg?VersionId=R04LetTvtTlShk4l4ZCdawU0ycqkOVDV&size=690:388",
+  "Himalayan Mountaineering Institute": "https://content.jdmagicbox.com/comp/darjeeling/w3/9999px354.x354.111010102904.t1w3/catalogue/himalayan-mountaineering-institute-darjeeling-ho-darjeeling-tourist-attraction-vlsampu.jpg",
+  "Chowrasta": "https://www.darjeeling-tourism.com/darj_i000929.jpg",
   // Birbhum
-  "Santiniketan (Visva Bharati)": "https://images.unsplash.com/photo-1591559424919-c86999049189?w=600&q=80",
-  "Tarapith": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?w=600&q=80",
-  "Bakreshwar": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=600&q=80",
-  "Amkhoi Fossil Park": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80",
+  "Santiniketan (Visva Bharati)": "https://pragmaticpersona.com/wp-content/uploads/2025/04/wp-17457305751074238630723698766921.jpg?w=1440",
+  "Tarapith": "https://upload.wikimedia.org/wikipedia/commons/3/36/Maa_Tara_Temple.jpg",
+  "Bakreshwar": "https://www.pilgrimaide.com/image/cache/catalog/Blogs/Bakreshwar%20Devi%20Temple-2120x800w.jpg",
+  "Amkhoi Fossil Park": "https://static2.tripoto.com/media/filter/nl/img/45595/TripDocument/1519756209_dsc08664.jpg",
   // Hooghly
   "Bandel Church": "https://images.unsplash.com/photo-1548191194-b3d4f051fd7d?w=600&q=80",
   "Hooghly Imambara": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&q=80",
