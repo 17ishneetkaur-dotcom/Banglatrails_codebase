@@ -8,7 +8,7 @@ BanglaTrails is a cultural exploration platform that helps travelers experience 
 
 ## 🇧🇩 The Challenge
 
-Bangladesh is home to vibrant cultures, centuries of heritage, breathtaking landscapes, and countless local experiences. Yet much of this richness remains hidden behind conventional tourism routes.
+West bengal is home to vibrant cultures, centuries of heritage, breathtaking landscapes, and countless local experiences. Yet much of this richness remains hidden behind conventional tourism routes.
 
 Travelers often miss:
 
@@ -64,7 +64,7 @@ To become the digital gateway to Bangladesh's cultural heartbeat—connecting ev
 
 ---
 
-## Other parts of the submission
+## Other parts of the deliverables
 
 Miro pitch deck: https://miro.com/app/board/uXjVHJcU9zo=/?share_link_id=540725717409
 
