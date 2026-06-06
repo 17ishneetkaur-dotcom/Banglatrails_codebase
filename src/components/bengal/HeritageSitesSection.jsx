@@ -4,18 +4,50 @@ import { Landmark, ChevronDown, Sparkles, Loader2, BookOpen } from "lucide-react
 import { base44 } from "@/api/base44Client";
 
 const SITE_IMAGES = {
-  "Victoria Memorial": "https://images.unsplash.com/photo-1597685054322-a1ad3f4d80c9?w=600&q=80",
+  // Kolkata
+  "Victoria Memorial": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
   "Howrah Bridge": "https://images.unsplash.com/photo-1518684029980-cf91eb586ae0?w=600&q=80",
-  "Hazarduari Palace": "https://images.unsplash.com/photo-1599599810694-e7b1e1b5a5b2?w=600&q=80",
-  "Bishnupur Temples": "https://images.unsplash.com/photo-1548013146-72c4f3e24e5f?w=600&q=80",
-  "Belur Math": "https://images.unsplash.com/photo-1548013146-72c4f3e24e5f?w=600&q=80",
-  "Indian Museum": "https://images.unsplash.com/photo-1595432707802-ba2b8841d4b0?w=600&q=80",
+  "Indian Museum": "https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?w=600&q=80",
   "Marble Palace": "https://images.unsplash.com/photo-1600585152915-d92de998cccb?w=600&q=80",
-  "St. Paul's Cathedral": "https://images.unsplash.com/photo-1597685054322-a1ad3f4d80c9?w=600&q=80",
-  "Toy Train": "https://images.unsplash.com/photo-1565814636919-753ea631b429?w=600&q=80",
-  "Tarapith": "https://images.unsplash.com/photo-1548013146-72c4f3e24e5f?w=600&q=80",
-  "Santiniketan": "https://images.unsplash.com/photo-1591559424919-c86999049189?w=600&q=80",
-  "Bandel Church": "https://images.unsplash.com/photo-1597685054322-a1ad3f4d80c9?w=600&q=80",
+  "St. Paul's Cathedral": "https://images.unsplash.com/photo-1548191194-b3d4f051fd7d?w=600&q=80",
+  // Darjeeling
+  "Toy Train (UNESCO)": "https://images.unsplash.com/photo-1544989164-31c6e9e4a6c8?w=600&q=80",
+  "Himalayan Mountaineering Institute": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
+  "Chowrasta": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
+  // Birbhum
+  "Santiniketan (Visva Bharati)": "https://images.unsplash.com/photo-1591559424919-c86999049189?w=600&q=80",
+  "Tarapith": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?w=600&q=80",
+  "Bakreshwar": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=600&q=80",
+  "Amkhoi Fossil Park": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80",
+  // Hooghly
+  "Bandel Church": "https://images.unsplash.com/photo-1548191194-b3d4f051fd7d?w=600&q=80",
+  "Hooghly Imambara": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&q=80",
+  "Chandannagar": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80",
+  "Serampore": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=600&q=80",
+  // Bankura
+  "Bishnupur Temples": "https://images.unsplash.com/photo-1548013146-72c4f3e24e5f?w=600&q=80",
+  "Susunia Hills": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80",
+  // Murshidabad
+  "Hazarduari Palace": "https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=600&q=80",
+  "Katra Masjid": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&q=80",
+  "Imambara": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=600&q=80",
+  "Khushbagh": "https://images.unsplash.com/photo-1600585152915-d92de998cccb?w=600&q=80",
+  // Purulia
+  "Garpanchkot": "https://images.unsplash.com/photo-1533130061792-64b345e4a833?w=600&q=80",
+  "Deulghata": "https://images.unsplash.com/photo-1548013146-72c4f3e24e5f?w=600&q=80",
+  "Pakbirra": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=600&q=80",
+  // Malda
+  "Gour": "https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?w=600&q=80",
+  "Pandua": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80",
+  "Adina Mosque": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&q=80",
+  "Eklakhi Mausoleum": "https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=600&q=80",
+  // Howrah
+  "Belur Math": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?w=600&q=80",
+  "Botanical Garden": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80",
+  // Paschim Bardhaman
+  "Churulia": "https://images.unsplash.com/photo-1591702386139-a2e0b4d83c84?w=600&q=80",
+  "Ichhai Ghosher Deul": "https://images.unsplash.com/photo-1548013146-72c4f3e24e5f?w=600&q=80",
+  "Garh Jungle": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&q=80",
 };
 
 const DEFAULT_IMGS = [
